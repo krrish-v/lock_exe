@@ -14,6 +14,8 @@ $ ./lock
 
 Happy encrypting and decrypting
 
+NOTE -- If you want to encrypt the file again after decrypting it [file.txt], you have remove the encoded text from the file otherwise it will not work.
+
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||
 Its Drawbacks
 
