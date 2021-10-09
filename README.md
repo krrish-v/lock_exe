@@ -3,6 +3,7 @@ This is a encryption program that is capable to encrypting password files of sma
 
 First of all you have you have to conver this file into exe format
 
+Before that download all the libraries given in requirement.txt file
 
 In terminal 
 
