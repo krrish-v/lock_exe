@@ -4,6 +4,10 @@ This is a encryption program that is capable to encrypting password files of sma
 
 HOW TO USE THIS EXE_FILE---------
 
+
+Default Password - hail-kali
+
+
 [1] open terminal from where you had downloaded a file.
 
 [2] type the following command to start the program
