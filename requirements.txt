@@ -1,0 +1,4 @@
+crypto==1.4.1
+pycrypto==2.6.1
+pyautogui==0.9.53
+rsa==4.7.2
