@@ -1,9 +1,9 @@
-# lock
+# locking program
 This is a encryption program that is capable to encrypting password files of small size, it uses the RSA-4096 bit encryption to encrypt the file. It is completely build on python language contains PyCrypto and RSA libraries.
 
-First of all you have you have to conver this file into exe format
+You have you have to convert this file into exe format
 
-Before that download all the libraries given in requirement.txt file
+Before that download all the libraries given in [requirements.txt] file using pip, see in above directory
 
 In terminal 
 
@@ -15,7 +15,7 @@ $ pip3 install pyinstaller
 
 then open the directory where you downloaded these files in terminal
 
-type - 
+type - (basically to convert independent program that can run without python)
 
 $ ./pyinstaller --onefile -w lock.py
 
@@ -33,14 +33,29 @@ Default Password - hail-kali
 [2] type the following command to start the program
 $ ./lock
 
-[3] now go accroding to the commands specified in the program
+[3] It will ask you a password now type the deafult password given over
+
+You can change it in the main file [lock.py], line 11
+passsw = "your_password"
+
+[4] now go accroding to the commands specified in the program
 
 
-Happy encrypting and decrypting
+KEY POINTS (don't skip)
 
-NOTE -- If you want to encrypt the file again after decrypting it [file.txt], you have remove the encoded text from the file otherwise it will not work.
+[SECURITY POINT] Move that private key file to somewhere else to any other stograge device, but keep it safe other you will never get that encrypted file again
+
+you can use this exe file in your pendrive if you store some credentials over their in small sized file, it is basically for that purpose only
+
+NOTE -- If you want to encrypt the file again after decrypting it, you have remove the encoded text from that
+secret file otherwise it will not work, It will not affect anyhow, but don't touch the file after encrypting it. You can make changes after decryption.
 
 |||||||||||||||||||||||||||||||||||||||||||||||||||||||
+
 Its Drawbacks
 
 [1] It cannot encrypt the large files
+
+
+
+(Happy encrypting and decrypting).upper()
