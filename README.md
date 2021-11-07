@@ -3,24 +3,27 @@ This is a encryption program that is capable to encrypting password files of sma
 
 You have you have to convert this file into exe format
 
-Before that download all the libraries given in [requirements.txt] file using pip, see in above directory
+Before that download all the libraries given in [requirements.txt] file
 
-In terminal 
+There will be highly chances that you will get the issue in pycrypto module
+
+see here to solve the issues https://github.com/pycrypto/pycrypto/issues
+
+SETUP TIME|||
+
+In terminal -------
 
 $ pip install pyinstaller
 
-or
-
-$ pip3 install pyinstaller
-
-then open the directory where you downloaded these files in terminal
-
-type - (basically to convert independent program that can run without python)
+$ pip install crypto && pip install pycrypto && pip install pyautogui && pip install rsa
 
 $ ./pyinstaller --onefile -w lock.py
 
+OVER|||
 
-- Delete all the extra created file except dist folder which contains exe file as named lock
+Go to the directory open the dist folder
+
+NOTE - Delete all the extra created file except dist folder which contains exe file as named lock
 
 HOW TO USE THIS EXE_FILE---------
 
@@ -28,20 +31,21 @@ HOW TO USE THIS EXE_FILE---------
 Default Password - hail-kali
 
 
-[1] open terminal from where you had downloaded a file.
+[1] open terminal command 
+$ cd path_name
 
 [2] type the following command to start the program
 $ ./lock
 
 [3] It will ask you a password now type the deafult password given over
 
-You can change it in the main file [lock.py], line 11
+You can change it in the main file [lock.py], line 12
 passsw = "your_password"
 
 [4] now go accroding to the commands specified in the program
 
 
-KEY POINTS (don't skip)
+(don't skip)
 
 [SECURITY POINT] Move that private key file to somewhere else to any other stograge device, but keep it safe other you will never get that encrypted file again
 
