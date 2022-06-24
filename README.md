@@ -1,6 +1,11 @@
 # locking program
 This is a encryption program that is capable to encrypting password files of small size, it uses the RSA-4096 bit encryption to encrypt the file. It is completely build on python language contains PyCrypto and RSA libraries.
 
+
+Visit here this program is outdated
+https://github.com/krrish-v/hashent
+
+
 You have you have to convert this file into exe format
 
 Before that download all the libraries given in [requirements.txt] file
