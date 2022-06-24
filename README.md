@@ -18,11 +18,11 @@ SETUP TIME|||
 
 In terminal -------
 
-$ pip install pyinstaller
+    $ pip install pyinstaller
 
-$ pip install crypto && pip install pycrypto && pip install pyautogui && pip install rsa
+    $ pip install crypto && pip install pycrypto && pip install pyautogui && pip install rsa
 
-$ ./pyinstaller --onefile -w lock.py
+    $ ./pyinstaller --onefile -w lock.py
 
 OVER|||
 
@@ -37,10 +37,12 @@ Default Password - hail-kali
 
 
 [1] open terminal command 
-$ cd path_name
+
+    $ cd path_name
 
 [2] type the following command to start the program
-$ ./lock
+
+    $ ./lock
 
 [3] It will ask you a password now type the deafult password given over
 
@@ -52,7 +54,7 @@ passsw = "your_password"
 
 (don't skip)
 
-[SECURITY POINT] Move that private key file to somewhere else to any other stograge device, but keep it safe other you will never get that encrypted file again
+[SECURITY POINT] Move that private key file to somewhere else to any other stograge device, but keep it safe otherwise you will never get that encrypted file decrypted again
 
 you can use this exe file in your pendrive if you store some credentials over their in small sized file, it is basically for that purpose only
 
