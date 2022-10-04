@@ -2,7 +2,7 @@
 This is a encryption program that is capable to encrypting password files of small size, it uses the RSA-4096 bit encryption to encrypt the file. It is completely build on python language contains PyCrypto and RSA libraries.
 
 
-This program is outdated
+## This program is outdated
 
 The updated one -
     https://github.com/krrish-v/hashent
