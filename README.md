@@ -67,5 +67,4 @@ secret file otherwise it will not work, It will not affect anyhow, but don't tou
 
 Its Drawbacks
 
-[1] It cannot encrypt the large files
-
+[1] It cannot encrypt the large files, which require chunking of data
